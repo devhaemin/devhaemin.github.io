@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 정해민
-title: Software Engineer ( Backend base )
+title: Software Engineer ( base: Backend )
 email: noah.doitmin@gmail.com
 # email_title: Email (Email title override)
 phone: 010-9881-0664
@@ -57,8 +57,8 @@ about_content: | # this will include new lines to allow paragraphs
   <br><strong>직접 창업한 경험</strong>과 스타트업 씬을 오가며 <mark>비즈니스에 영향력 있는 개발</mark>을 해야겠다는 생각을 하게 되었고,
   KPI를 추종하고, DevOps 역량을 길러 팀의 비용을 감축하기도 했습니다.
   <br>현재는 스타트업의 <mark>CTO</mark>로, 넘쳐나는 <mark>성장욕구</mark>와 함께 팀원들과 열정적인 개발 문화를 구축해나가고 있습니다.
+  <br>2000.12.12
 content:
-
 - title: Projects
   layout: list
   content:
@@ -146,7 +146,7 @@ content:
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
-      title: 대성마이맥, 이투스 이미지수학 - 현장 강의 학습 관리 솔루션
+      title: 대성마이맥, 이투스 이미지수학 - 현장 강의 학습 관리 솔루션 (2020)
       link: https://github.com/devhaemin/ImageMath
       link_text: https://github.com/devhaemin/ImageMath
       quote: >
@@ -202,9 +202,9 @@ content:
       description: | # this will include new lines to allow paragraphs
         - <a href="https://send.ordercheck.io">오더체크</a> CTO ( 2024.04.01 - 현재 )
         - 보헤미안즈 대표 개발자, 아웃 소싱 프로젝트 전체 리드
-        - - o2o 유학 관련 화상 멘토링 플랫폼
-        - - o2o 건축 잉여자재 거래 플랫폼
-        - - 대용량 크롤링 시스템 구축
+          - o2o 유학 관련 화상 멘토링 플랫폼
+          - o2o 건축 잉여자재 거래 플랫폼
+          - 대용량 크롤링 시스템 구축
     
     - layout: center
       title: AI
@@ -331,12 +331,13 @@ content:
         - 국제학교, 중고등학생 대상 코딩 교육
         - C언어 강의 교재 집필 및 내부 커리큘럼 구성
         
-- title: A Little More About Me
+- title: About Me
   layout: text
   content: | # this will include new lines to allow paragraphs
-    This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-    Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    기술 중심 조직, 강한 업무 강도를 선호 합니다. <br>
+    여러 경험을 하였으나 끝없이 부족함을 느끼고 있고, 발전하고자 하는 열망을 갖고 있습니다. <br>
+    0 to 1에 강한 역량을 갖고 있으나, deep down 또한 매우 선호합니다. <br>
+    이력서를 끝까지 열람해주셔서 감사합니다. 잘 부탁드립니다.
 
 # Footer
 footer_show_references: true
