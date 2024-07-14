@@ -102,9 +102,9 @@ content:
         - Python Celery, Supervisor를 통한 워커 노드 구축 및 대용량 크롤링
 
         대용량 크롤링 
-        - 일 300만 건의 HTTP 요청 처리를 위한 아키텍처 구축 ( 300개의 워커 노드 구성 )
+        - <mark>일 300만 건</mark>의 HTTP 요청 처리를 위한 아키텍처 구축 ( 300개의 워커 노드 구성 )
         - 실패율 분석 및 복원, 재실행 시스템, 스케줄러 구축
-        - DB Bulk insertion을 위한 Serverless 환경 구성 ( AWS Lambda )
+        - DB Bulk insertion을 위한 <mark>Serverless 환경</mark> 구성 ( AWS Lambda )
         - 프록시 비용, DB 용량 비용 절감 ( 일 평균 32% 감축 )
 
         
@@ -115,7 +115,7 @@ content:
       link: https://shopping.naver.com/home
       link_text: https://shopping.naver.com/home
       quote: >
-        네이버 웹 크롤링 보완 개편 이후, 취약점 추적 및 커피챗 제보
+        <mark>네이버 취약점 추적</mark> 및 커피챗 제보
       description: | # this will include new lines to allow paragraphs
         - 네트워크 탭 확인 및 호출 API 확인을 통한 아키텍처 추정 ( React.js, legacy endpoint 확인 )       
           - 특정 상품몰의 모바일 웹이 레거시 API에서 마이그레이션 되지 못한 이슈 파악
@@ -169,7 +169,7 @@ content:
       link: https://menntee.com/
       link_text: https://github.com/devhaemin/Guardians
       quote: >
-        요양원 환자 대상 AI 낙상 방지 적외선 카메라
+        요양원 환자 대상 <mark>AI</mark> 낙상 방지 적외선 카메라
       description: | # this will include new lines to allow paragraphs
         - OpenCV, Motion ML 활용한 머신러닝 아키텍처 설계
         - 한이음 프로보노 ICT 동상 수상
@@ -205,6 +205,15 @@ content:
         - - o2o 유학 관련 화상 멘토링 플랫폼
         - - o2o 건축 잉여자재 거래 플랫폼
         - - 대용량 크롤링 시스템 구축
+    
+    - layout: center
+      title: AI
+      caption: 2022 - 2023
+      link: https://blog.naver.com/haemin001212/221160151533
+      description: | # this will include new lines to allow paragraphs
+        - <a href="https://sites.google.com/view/hcir/home">HCIR Lab</a> 학부연구생
+        - <a href="https://github.com/devhaemin/Guardians">AI 낙상 위험 방지 시스템</a>, 프로보노 ICT 수상
+        
     - layout: center
       title: Business
       caption: 2024 창업진흥원 주관 예비창업패키지 선정
@@ -246,6 +255,7 @@ content:
         - xml, fragment
         - WebView, FCM(Push), Native
         - Deep Links
+        - <a href="https://blog.naver.com/haemin001212/221191134920">Camera, AR</a>
     - layout: right
       title: iOS
       caption: Low
@@ -257,13 +267,19 @@ content:
         - WebView, FCM(Push), Native
         - Universal Links
     - layout: right
+      title: Crawler
+      caption: Low
+      description: | # this will include new lines to allow paragraphs
+        - Python, Selenium
+        - Requests, Proxying
+        - IP rotation
+    - layout: right
       title: Frontend
       caption: Low
       #link: Link to company (optional)
       description: | # this will include new lines to allow paragraphs
         - NPM
         - Next.js
-
 - title: Experience
   layout: list
   content:
