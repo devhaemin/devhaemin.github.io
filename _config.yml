@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: devhaemin/devhaemin.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 2
+version: 1
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 정해민
+title: Software Engineer ( Backend base )
+email: noah.doitmin@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 010-9881-0664
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: 
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  devhaemin
+# stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: haeminio
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: Blogs
+  icon: https://blogpfthumb-phinf.pstatic.net/MjAyNDA3MTRfMjUy/MDAxNzIwOTYyMTQ2ODUw.TRJaHHCtmAylwGmb3BDFk9d9EInauh2YAlJBmACG8sgg.4P5fHnx9Pcer6cFKGvyr-Ud3XC9pTwpSx-tOgjnURxEg.JPEG/avatar.jpg/avatar.png?type=s2
+  url: https://blog.naver.com/haemin001212
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,60 +50,164 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/avatar.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Java Spring, Nest.js, AWS 를 베이스로 Next.js, Android(Java), iOS(SwiftUI)까지 OS를 가리지 않고, 문제 해결에 집중해온 <strong>실전형 개발자</strong>입니다.
+  <strong>부산광역시 교육청</strong> AI 진학 웹 프로젝트, 대용량 크롤링 시스템 구축, o2o 화상 유학 멘토링 플랫폼, b2b 시공 인테리어 발주 플랫폼 등의 서비스에서 인프라 구축, 백엔드 플랫폼 개발, <strong>CI/CD, DevOps</strong> 등을 해왔습니다.
+  <strong>직접 창업한 경험</strong>과 스타트업 씬을 오가며 개발을 위한 개발보다는 <mark>비즈니스에 적용할 수 있는 개발</mark>을 해야겠다는 생각을 하며 KPI를 추종하고, DevOps 역량을 길러 팀의 비용을 감축하기도 했습니다.
+  현재는 스타트업의 <mark>CTO</mark>로 더욱 성장하고자 열의와 함께 팀원들과 열정적인 개발 문화를 구축해나가고 있습니다.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        title: 오더체크
+        sub_title: CTO
+        caption: 2024.04 - 현재
         link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+          인테리어 원클릭 시공 발주 웹, 시공사 ERP 서비스
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - 온프레미스 환경에서 클라우드 기반으로의 아키텍처 설계 및 마이그레이션 ( AWS ECS )
+          - 동시성 트래픽 환경에서의 주문 발주 및 정산, 결제, 채팅 등 레거시 개편 및 신규 서비스 개발
+          - 무중단 배포, CI/CD 개발 환경 개선 ( CircleCI )
+      - layout: right
+        title: 보헤미안즈
+        sub_title: 대표 개발자
+        caption: 2023.01 - 2023.12
+        #link: Link to company (optional)
+        quote: >
+          스타트업을 위한 소프트웨어 개발 에이전시, 개인 사업자
+        description: | # this will include new lines to allow paragraphs
+          - 부산광역시 미래학력 교육원 진학 AI 솔루션, 배포 인프라 다중화 구축 및 백엔드 개발
+          - 멘앤티, o2o 유학 관련 화상 멘토링 플랫폼 개발 ( 지급정산, 결제, 환불, 화상통화 등 )
+          - 히어로웍스, 대용량 호텔 크롤링 시스템 구축 및 서버 아키텍처 설계 및 개발, 유지보수
+          - 땡땡트럭, o2o 건축 잉여자재 거래 플랫폼 아키텍처 설계 및 백엔드 개발 
+      - layout: right
+        title: (주) 스튜
+        sub_title: 안드로이드 개발 사원
+        caption: 2017.11 - 2018.09
+        #link: Link to company (optional)
+        quote: >
+          소상공인을 위한 길거리 마케팅 AR 플랫폼
+        description: | # this will include new lines to allow paragraphs
+          - 위치정보 기반 위-경도 화면 좌표계 변환을 통한 카메라 베이스 AR 안드로이드 개발
+          - 자이로센서 및 가속도 센서, View Inflation을 활용한 AR 뷰 고도화 작업
+          - RESTful API 기반 멀티쓰레딩 환경 구축을 통한 비동기 HTTP 통신 구현
+  
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 부산광역시 교육청 AI 진학 플랫폼 개발(2022-2023)
+        link: https://jinhakai.pen.go.kr
+        link_text: 진학AI 웹 url
+        quote: >
+          부산광역시 고교 대상 진학, 상담 솔루션
+        description: | # this will include new lines to allow paragraphs
+          (주)스마트소셜, (주)모노래이테크 협력 개발
+          
+          배포 인프라 환경 구축
+          - 접근제어 솔루션 기반의 교육청 내부망에서 프로덕션 배포 환경 구축
+          - DB Replication을 통한 다중화 ( 리스크 관리 )
+          - Spring boot 다중화 및 외장 Tomcat 배포, L7 로드 밸런싱 ( Apache )
+          - React.js 다중화 및 L7 로드 밸런싱 ( Apache )
+
+          수시전형 상담 참고 프로그램 백엔드 개발
+          - 30개 대학 70개 전형에 대한 수시전형 점수 산출 자동화 ( 나이스 성적 액셀 기반 )
+          - 100만 건의 성적 데이터에서의 DB 해시 인덱싱 적용을 통한 쿼리 최적화 ( 약 80% 레이턴시 절감 효과 )
+          - 연합 석차 산출 과정에서의 성적 데이터 암호화
+
+          부산광역시 고교 내부 DB 배포 프로그램 개발 및 고도화
+          - 보안정책 준수를 위한 고교별 온프레미스 DB 배포 프로그램 개발 ( Inno Setup )
+          - DB 백업 및 복원 스크립트 개발 및 배포 ( Windows 10 )
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 히어로웍스 - 대용량 크롤링 시스템 구축 및 개발(2024)
+        link: https://app.datamenity.com
+        link_text: 데이터메니티 서비스 url
+        quote: >
+          7000개 호텔 RMS ( Revenue Management System ) 
+        description: | # this will include new lines to allow paragraphs
+          대용량 컴퓨팅 환경 구축
+          - Hypervisor, Xen Server OS 기반의 대용량 컴퓨팅 환경의 네트워크 구성
+          - Python Celery, Supervisor를 통한 워커 노드 구축 및 대용량 크롤링
+
+          대용량 크롤링 
+          - 일 300만 건의 HTTP 요청 처리를 위한 아키텍처 구축 ( 300개의 워커 노드 구성 )
+          - 실패율 분석 및 복원, 재실행 시스템, 스케줄러 구축
+          - DB Bulk insertion을 위한 Serverless 환경 구성 ( AWS Lambda )
+          - 프록시 비용, DB 용량 비용 절감 구성 
+
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 메이저 웹 취약점 파악 프로젝트 (2023)
+        link: https://shopping.naver.com/home
+        link_text: 네이버 쇼핑 url
+        quote: >
+          네이버 웹 크롤링 보완 개편 이후, 취약점 추적 및 커피챗 제보
+        description: | # this will include new lines to allow paragraphs
+          - 네트워크 탭 확인 및 호출 API 확인을 통한 아키텍처 추정 ( React.js, legacy endpoint 확인 )       
+            - 특정 상품몰의 모바일 웹이 레거시 API에서 마이그레이션 되지 못한 이슈 파악
+            - 즐겨찾기 버튼의 동작 유무를 통해 신규 등록된 상품몰 크롤링이 가능함 확인
+            
+          - 네이버 블로그 바이럴 마케팅 용 텍스트 삽입 SEO 취약점 파악
+            - 폰트 사이즈 17 렌더링이 안되는 관계로, 텍스트 삽입 후 관리망을 피하는 수법
+            - 위지윅 에디터 단에서 삽입 불가능 비즈니스 로직 처리됨 확인
+            - POST endpoint 복사 및 네트워크 쓰로틀링 기능을 활용해 백엔드에 직접 삽입이 가능한 취약점 파악
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 멘앤티 - o2o 유학 화상 멘토링 플랫폼 (2023)
+        link: https://menntee.com/
+        link_text: 멘앤티 웹
+        quote: >
+          지분 공유형 아웃소싱 프로젝트, PO 겸 테크 리드 활동
+        description: | # this will include new lines to allow paragraphs
+          - 화상 Open API 활용 (구루미)
+            - redirection 기능 제안을 통한 open API 고도화
+          - 토스페이먼츠 연동 개발
+            - 승인 심의가 까다로운 o2o 서비스에 대한 승인 문서 작업 지원 및 소통
+            - 지급 정산, 결제, 환불 시스템 구축 및 멱등성 구현
+          - SEO, 네이버 서치어드바이저 구글 사이트 관리자 적용 (sitemap)
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 가디언즈, AI 기반 낙상 방지 카메라 (2019)
+        link: https://menntee.com/
+        link_text: https://github.com/devhaemin/Guardians
+        quote: >
+          요양원 환자 대상 AI 낙상 방지 적외선 카메라
+        description: | # this will include new lines to allow paragraphs
+          - OpenCV, Motion ML 활용한 머신러닝 아키텍처 설계
+          - 한이음 프로보노 ICT 동상 수상
+            - 위험 경고 시스템, 점진적 위험도 함수, 활성화 함수 설계 및 적용
+            - 1FPS 이미지 통신 임베디드 개발 ( 라즈베리 파이 )
+            - 서버 통신을 위한 최소한의 OS가 필요하여 라즈베리파이로 구축
+          
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: 비욘드 코딩 아카데미
+        sub_title: 학원 강사
+        caption: 2020.10 - 현재 ( 21.5 - 22. 11 병역 기간 제외 )
         quote: >
-          Short institution or course description (optional)
+          Python, C++, Javascript 강의
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          - 국제학교, 중고등학생 대상 코딩 교육
+          - C언어 강의 교재 집필 및 내부 커리큘럼 구성
+          - 다년간의 교육을 통한 의사소통 역량 강화
+          
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
