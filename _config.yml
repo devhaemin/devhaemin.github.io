@@ -52,10 +52,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/avatar.png
 about_content: | # this will include new lines to allow paragraphs
-  Java Spring, Nest.js, AWS 를 베이스로 Next.js, Android(Java), iOS(SwiftUI)까지 OS를 가리지 않고, 문제 해결에 집중해온 <strong>실전형 개발자</strong>입니다.
-  <strong>부산광역시 교육청</strong> AI 진학 웹 프로젝트, 대용량 크롤링 시스템 구축, o2o 화상 유학 멘토링 플랫폼, b2b 시공 인테리어 발주 플랫폼 등의 서비스에서 인프라 구축, 백엔드 플랫폼 개발, <strong>CI/CD, DevOps</strong> 등을 해왔습니다.
-  <strong>직접 창업한 경험</strong>과 스타트업 씬을 오가며 개발을 위한 개발보다는 <mark>비즈니스에 적용할 수 있는 개발</mark>을 해야겠다는 생각을 하며 KPI를 추종하고, DevOps 역량을 길러 팀의 비용을 감축하기도 했습니다.
-  현재는 스타트업의 <mark>CTO</mark>로 더욱 성장하고자 열의와 함께 팀원들과 열정적인 개발 문화를 구축해나가고 있습니다.
+  Java Spring, Nest.js, AWS 를 베이스로 Next.js, Android(Java), iOS(SwiftUI)까지 OS를 가리지 않고, 문제 해결에 집중해온 <strong>실전형 개발자</strong>입니다.<br><strong>부산광역시 교육청</strong> AI 진학 웹 프로젝트, 대용량 크롤링 시스템 구축, o2o 화상 유학 멘토링 플랫폼, b2b 시공 인테리어 발주 플랫폼 등의 서비스에서 인프라 구축, 백엔드 플랫폼 개발, <strong>CI/CD, DevOps</strong> 등을 해왔습니다.<br><strong>직접 창업한 경험</strong>과 스타트업 씬을 오가며 개발을 위한 개발보다는 <mark>비즈니스에 적용할 수 있는 개발</mark>을 해야겠다는 생각을 하며 KPI를 추종하고, DevOps 역량을 길러 팀의 비용을 감축하기도 했습니다.<br>현재는 스타트업의 <mark>CTO</mark>로 더욱 성장하고자 열의와 함께 팀원들과 열정적인 개발 문화를 구축해나가고 있습니다.
 
 content:
   - title: Experience
